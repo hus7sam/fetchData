@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:ALSAEDI="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    ALSAEDI:layout_width="match_parent"
+    ALSAEDI:layout_height="match_parent"
+    tools:context=".MainActivity"
+    ALSAEDI:orientation="vertical">
+
+    <EditText
+        ALSAEDI:id="@+id/editText"
+        ALSAEDI:layout_width="wrap_content"
+        ALSAEDI:layout_height="wrap_content"
+        ALSAEDI:layout_marginLeft="30dp"
+        ALSAEDI:width="366dp"
+        ALSAEDI:ems="10"
+        ALSAEDI:fontFamily="@font/carter_one"
+        ALSAEDI:gravity="center"
+        ALSAEDI:hint="Here, search .. "
+        ALSAEDI:inputType="textPersonName"
+        ALSAEDI:paddingLeft="15dp"
+        ALSAEDI:paddingRight="20dp" />
+
+    <Button
+        ALSAEDI:id="@+id/buttonfetch"
+        ALSAEDI:layout_width="wrap_content"
+        ALSAEDI:layout_height="wrap_content"
+        ALSAEDI:layout_marginLeft="20dp"
+        ALSAEDI:layout_marginTop="20dp"
+        ALSAEDI:width="366dp"
+        ALSAEDI:background="@color/colorAccent"
+        ALSAEDI:fontFamily="@font/carter_one"
+        ALSAEDI:text="Fetch" />
+
+    <ListView
+        ALSAEDI:id="@+id/listView"
+        ALSAEDI:layout_width="match_parent"
+        ALSAEDI:layout_height="match_parent"
+        ALSAEDI:layout_gravity="left"
+        ALSAEDI:layout_marginTop="40dp"
+        ALSAEDI:background="@color/colorAccent"
+        ALSAEDI:fontFamily="@font/carter_one"
+        ALSAEDI:paddingLeft="10dp"></ListView>
+
+</LinearLayout>
