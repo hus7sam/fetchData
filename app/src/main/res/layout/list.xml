@@ -5,7 +5,7 @@
     ALSAEDI:layout_width="match_parent"
     ALSAEDI:layout_height="match_parent"
     ALSAEDI:gravity="left"
-    ALSAEDI:orientation="vertical"
+    ALSAEDI:orientation="horizontal"
     ALSAEDI:scrollbarSize="10dp"
     ALSAEDI:scrollbarThumbHorizontal="@android:color/background_dark"
     ALSAEDI:scrollbarThumbVertical="@android:color/background_dark"
@@ -14,8 +14,8 @@
 
         <TextView
             ALSAEDI:id="@+id/id1"
-            ALSAEDI:layout_width="wrap_content"
-            ALSAEDI:layout_height="30dp"
+            ALSAEDI:layout_width="59dp"
+            ALSAEDI:layout_height="match_parent"
             ALSAEDI:layout_gravity="center|left"
             ALSAEDI:fontFamily="@font/carter_one"
             ALSAEDI:textAppearance="@style/TextAppearance.AppCompat.Light.SearchResult.Title"
@@ -23,8 +23,8 @@
 
         <TextView
             ALSAEDI:id="@+id/Name1"
-            ALSAEDI:layout_width="wrap_content"
-            ALSAEDI:layout_height="30dp"
+            ALSAEDI:layout_width="93dp"
+            ALSAEDI:layout_height="match_parent"
             ALSAEDI:layout_gravity="left"
             ALSAEDI:layout_marginTop="00dp"
             ALSAEDI:fontFamily="@font/carter_one"
@@ -34,8 +34,8 @@
 
         <TextView
             ALSAEDI:id="@+id/Phone1"
-            ALSAEDI:layout_width="wrap_content"
-            ALSAEDI:layout_height="wrap_content"
+            ALSAEDI:layout_width="80dp"
+            ALSAEDI:layout_height="match_parent"
             ALSAEDI:layout_gravity="left"
             ALSAEDI:fontFamily="@font/carter_one"
             ALSAEDI:gravity="left"
@@ -45,8 +45,8 @@
 
         <TextView
             ALSAEDI:id="@+id/Email"
-            ALSAEDI:layout_width="wrap_content"
-            ALSAEDI:layout_height="wrap_content"
+            ALSAEDI:layout_width="match_parent"
+            ALSAEDI:layout_height="match_parent"
             ALSAEDI:layout_gravity="center_horizontal|left"
             ALSAEDI:fontFamily="@font/carter_one"
             ALSAEDI:paddingBottom="18dp"
